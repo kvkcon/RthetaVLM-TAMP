@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Benchmarking Large Language Models for Symbolic World Model Generation</title>
+    <title>R$\theta$VLM-TAMP: Enhancing Long-Horizon Robotic Manipulation with Reasoning Visual-Language Models</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -56,27 +56,27 @@
 </head>
 <body>
     <header>
-        <h1>Benchmarking Large Language Models for Symbolic World Model Generation</h1>
+        <h1>R$\theta$VLM-TAMP: Enhancing Long-Horizon Robotic Manipulation with Reasoning Visual-Language Models</h1>
     </header>
     <main>
         <section class="abstract">
             <h2>Abstract</h2>
-            <p>Recently, there has been growing interest in leveraging large language models (LLMs) to generate symbolic world models from textual descriptions. Although LLMs have been extensively explored in the context of world modeling, prior studies encountered several challenges, including evaluation randomness, dependence on indirect metrics, and a limited domain scope.</p>
-            <p>To address these limitations, we introduce a novel benchmark, Text2World, based on planning domain definition language (PDDL), featuring hundreds of diverse domains and employing multi-criteria, execution-based metrics for a more robust evaluation. We benchmark current LLMs using Text2World and find that reasoning models trained with large-scale reinforcement learning outperform others. However, even the best-performing model still demonstrates limited capabilities in world modeling. Building on these insights, we examine several promising strategies to enhance the world modeling capabilities of LLMs, including test-time scaling, agent training, and more. We hope that Text2World can serve as a crucial resource, laying the groundwork for future research in leveraging LLMs as world models.</p>
+            <p>Robots have long faced challenges in long-horizon manipulation, especially in open-goal scenarios, where robots are typically required to  interact with the environment and perform a series of actions to accomplish open-semantic tasks.Traditional approaches based  on Task and Motion Planning (TAMP) struggle with open-world semantics.</p>
+            <p>In this paper, we propose R$\theta$VLM-TAMP, a framework that integrates reasoning-enhanced Vision-Language Models (Reasoning VLMs) with robotic systems for long-horizon tasks requiring both reasoning and manipulation. R$\theta$VLM-TAMP leverages the capabilities of Reasoning VLMs to accomplish long-horizon manipulation tasks. In addition, we introduce an enhancement method that improves VLMs’ reasoning capabilities specifically for manipulation tasks. Through comparative experiments, our approach achieves a 14\%--19\% performance improvement over baselines across varying difficulty levels. </p>
         </section>
         <section class="figures">
             <div class="figure">
-                <img src="static/images/T2D.svg" alt="Text2World Architecture">
-                <p><strong>Figure 1:</strong> Architecture of the Text2World benchmark.</p>
+                <img src="static/images/overview_v7.png" alt="R$\theta$VLM-TAMP Approach">
+                <p><strong>Figure 1:</strong> Architecture of the R$\theta$VLM-TAMP</p>
             </div>
             <div class="figure">
-                <img src="static/images/results.png" alt="Benchmark Results">
-                <p><strong>Figure 2:</strong> Performance comparison of different LLMs on Text2World.</p>
+                <img src="static/images/exp_plot02.png" alt="Experiment Results">
+                <p><strong>Figure 2:</strong> Box plot of average success rates across ten scenarios for different methods at different levels of difficulty.</p>
             </div>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <p>&copy; 2025kvkcon. All rights reserved.</p>
     </footer>
 </body>
 </html>
